@@ -14,7 +14,7 @@ class School
   end
   def sort
     @roster.each do |key, value|
-      @roster[key].sort { |x,y | binding.pry}
+      @roster[key].sort { |x,y | x <=> y}
     end
   end
 end
