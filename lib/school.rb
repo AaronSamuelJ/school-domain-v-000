@@ -16,7 +16,7 @@ class School
     @roster.each do |key, value|
       @roster[key].each do |name|
         binding.pry
-      end 
+      end
     end
   end
 end
