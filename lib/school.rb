@@ -15,7 +15,6 @@ class School
   def sort
     @roster.each do |key, value|
       @roster[key].sort
-      end
     end
   end
 end
