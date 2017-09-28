@@ -14,7 +14,7 @@ class School
   end
   def sort
     @roster.each do |key, value|
-      @roster[key].sort_by { |name| name[0] }
+      @roster[key].sort_by { |name, name1| name[0] <=> name1[0]}
     end
   end
 end
