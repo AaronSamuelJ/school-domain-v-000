@@ -14,9 +14,8 @@ class School
   end
   def sort
     @roster.each do |key, value|
-      @roster[key].each do |name|
-        binding.pry
-      end
+      @roster[key].sort
+      end 
     end
   end
 end
